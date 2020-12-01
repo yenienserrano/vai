@@ -1,0 +1,38 @@
+header {
+    position: relative;
+    .carousel-cont {
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .carousel-head {
+        .carousel-interna {
+            @include aspect-ratio(48,18);
+        }     
+        .carousel-interna {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .carousel-item-1 {
+            background-image: url(../image/sliderfibraoptica.png);
+        }
+        .carousel-item-2 {
+            background-image: url(../image/slider-02.jpg);
+        }
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
+    .info-cont {
+        position: absolute;
+        top: 0;
+        z-index: 1000;
+    }
+    .form-container {
+        position: absolute;
+        z-index: 1000;
+        bottom: -0.5rem;
+    }
+
+}

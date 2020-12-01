@@ -1,0 +1,43 @@
+html {
+    font-size: 100%;
+}
+.circulo {
+    border-radius: 100%;
+    width: 2.125rem;
+    height: 2.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.bg-rojo-abajo {
+    background-image: url('../image/rojo-abajo.jpg');
+    background-position-y: 101%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 10.125rem;
+}
+.bg-rojo-arriba {
+    background-image: url('../image/rojo-arriba.jpg');
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-gris-arriba {
+    background-image: url('../image/gris-arriba.jpg');
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logo {
+    width: 6.9375rem;
+}
+.btn-danger {
+    background-color: #ff0031;
+}
+.carousel-indicators {
+    bottom: 0rem;
+    z-index: 1002;
+}
+#botonenviar {
+    z-index: 50000 !important;
+}
